@@ -1,0 +1,15 @@
+import random
+
+quotes = [
+    ("Believe you can and you're halfway there.", "Theodore Roosevelt"),
+    ("Success is the sum of small efforts repeated daily.", "Robert Collier"),
+    ("Dream big and dare to fail.", "Norman Vaughan"),
+    ("The future depends on what you do today.", "Mahatma Gandhi"),
+    ("Code is like humor. When you have to explain it, it’s bad.", "Cory House")
+]
+
+quote, author = random.choice(quotes)
+
+print("💬 Quote of the Day")
+print(f'"{quote}"')
+print(f"- {author}")
